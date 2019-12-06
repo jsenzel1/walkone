@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  font-family: "Georgia";
+  font-size: 2em;
+    
+  width: 90%;
+  margin: auto;
+}
+canvas {
+  display: block;
+}
