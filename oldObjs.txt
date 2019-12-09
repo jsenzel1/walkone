@@ -2,7 +2,17 @@ paperclip
 bottle cap
 water bottle
 piece of fruit
+bank 
+office supply store
+supermarket
+basketball court
+soccer field
+playground
+swimming pool
 bridge
+railroad track
+library 
+church
 garden
 newspaper
 crane 
@@ -29,26 +39,3 @@ key chain
 rubber band
 clock
 plate
-receipt 
-cigar
-orange
-acorn
-apple
-bag
-bed
-book
-bottle
-bowl
-box
-knife
-candle
-chain
-computer
-desk
-feather
-key
-pen
-watch
-wrench
-zipper
-Instance of the number 5

@@ -1,4 +1,4 @@
-let obj;
+let obj, justobj;
 let par = "";
 
 let objList;
@@ -35,6 +35,8 @@ function preload() {
 
 function chooseObj() {
   tempObj = random(objList);
+
+  justobj = tempObj
 
   if (tempObj[0] == "a" || tempObj[0] == "e" || tempObj[0] == "i" || tempObj[0] == "o" || tempObj[0] == "u") {
 
@@ -116,12 +118,33 @@ function createPars() {
 
 
   createP(par);
+  ////
+
+  par = "";
+
+  par += "it could be a real ";
+  par += justobj + ".";
+
+  createP(par);
+
+  par += "it could be a picture of ";
+  par += obj + ".";
+
+  createP(par);
+
+  par += "it could be something that represents ";
+  par += obj + ".";
+
+  createP(par);
+
+
+
 
   ////
 
   par = "";
 
-  par += "If you come to an intersection that you are familiar with, that you know and have seen before, turn left, or right";
+  par += "If you come to an intersection that you are familiar with, that you recognize at all, turn left, or right";
 
   createP(par);
 
