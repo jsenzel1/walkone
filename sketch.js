@@ -127,10 +127,14 @@ function createPars() {
 
   createP(par);
 
+  par = "";
+
   par += "it could be a picture of ";
   par += obj + ".";
 
   createP(par);
+
+  par = "";
 
   par += "it could be something that represents ";
   par += obj + ".";
